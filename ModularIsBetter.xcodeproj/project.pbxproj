@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01063B62C304554B0AB34FD4 /* Pods_ModularIsBetter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FF35E3908FC01438C4E74E /* Pods_ModularIsBetter.framework */; };
+		0E0F010728475D6518A2C5A9 /* Pods_ModularIsBetterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31644AB030BCEF41E1F0A1C /* Pods_ModularIsBetterUITests.framework */; };
+		3DCC36B31F7B80BC00CAF634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC36B21F7B80BC00CAF634 /* AppDelegate.swift */; };
+		3DCC36B51F7B80BC00CAF634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC36B41F7B80BC00CAF634 /* ViewController.swift */; };
+		3DCC36B81F7B80BC00CAF634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC36B61F7B80BC00CAF634 /* Main.storyboard */; };
+		3DCC36BA1F7B80BC00CAF634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC36B91F7B80BC00CAF634 /* Assets.xcassets */; };
+		3DCC36BD1F7B80BC00CAF634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC36BB1F7B80BC00CAF634 /* LaunchScreen.storyboard */; };
+		3DCC36C81F7B80BC00CAF634 /* ModularIsBetterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC36C71F7B80BC00CAF634 /* ModularIsBetterTests.swift */; };
+		3DCC36D31F7B80BC00CAF634 /* ModularIsBetterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC36D21F7B80BC00CAF634 /* ModularIsBetterUITests.swift */; };
+		3DCC36E41F7CF11100CAF634 /* UILoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC36E31F7CF11100CAF634 /* UILoadingView.swift */; };
+		3FA42B11B5DBC19DD3DD781F /* Pods_ModularIsBetterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73C308F5AFB78B0030FD628 /* Pods_ModularIsBetterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DCC36C41F7B80BC00CAF634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCC36A71F7B80BC00CAF634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCC36AE1F7B80BC00CAF634;
+			remoteInfo = ModularIsBetter;
+		};
+		3DCC36CF1F7B80BC00CAF634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCC36A71F7B80BC00CAF634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCC36AE1F7B80BC00CAF634;
+			remoteInfo = ModularIsBetter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F9234822382B3CBA71F714 /* Pods-ModularIsBetterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularIsBetterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModularIsBetterTests/Pods-ModularIsBetterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0CE7A09DD293BCDB93BD6936 /* Pods-ModularIsBetter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularIsBetter.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModularIsBetter/Pods-ModularIsBetter.release.xcconfig"; sourceTree = "<group>"; };
+		3DCC36AF1F7B80BC00CAF634 /* ModularIsBetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularIsBetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCC36B21F7B80BC00CAF634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DCC36B41F7B80BC00CAF634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DCC36B71F7B80BC00CAF634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DCC36B91F7B80BC00CAF634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCC36BC1F7B80BC00CAF634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DCC36BE1F7B80BC00CAF634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCC36C31F7B80BC00CAF634 /* ModularIsBetterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularIsBetterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCC36C71F7B80BC00CAF634 /* ModularIsBetterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularIsBetterTests.swift; sourceTree = "<group>"; };
+		3DCC36C91F7B80BC00CAF634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCC36CE1F7B80BC00CAF634 /* ModularIsBetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularIsBetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCC36D21F7B80BC00CAF634 /* ModularIsBetterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularIsBetterUITests.swift; sourceTree = "<group>"; };
+		3DCC36D41F7B80BC00CAF634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCC36E31F7CF11100CAF634 /* UILoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILoadingView.swift; sourceTree = "<group>"; };
+		6781AE194569211AD444F9B9 /* Pods-ModularIsBetterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularIsBetterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModularIsBetterUITests/Pods-ModularIsBetterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E940EC1639E4ED04BDD5412 /* Pods-ModularIsBetterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularIsBetterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModularIsBetterUITests/Pods-ModularIsBetterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A458C4CA264C121C5EE4A6D2 /* Pods-ModularIsBetter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularIsBetter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModularIsBetter/Pods-ModularIsBetter.debug.xcconfig"; sourceTree = "<group>"; };
+		A4FF35E3908FC01438C4E74E /* Pods_ModularIsBetter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModularIsBetter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73C308F5AFB78B0030FD628 /* Pods_ModularIsBetterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModularIsBetterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D129B7276DB1A41E285A794D /* Pods-ModularIsBetterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularIsBetterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModularIsBetterTests/Pods-ModularIsBetterTests.release.xcconfig"; sourceTree = "<group>"; };
+		E31644AB030BCEF41E1F0A1C /* Pods_ModularIsBetterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModularIsBetterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCC36AC1F7B80BC00CAF634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01063B62C304554B0AB34FD4 /* Pods_ModularIsBetter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCC36C01F7B80BC00CAF634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA42B11B5DBC19DD3DD781F /* Pods_ModularIsBetterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCC36CB1F7B80BC00CAF634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0F010728475D6518A2C5A9 /* Pods_ModularIsBetterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCC36A61F7B80BC00CAF634 = {
+			isa = PBXGroup;
+			children = (
+				3DCC36B11F7B80BC00CAF634 /* ModularIsBetter */,
+				3DCC36C61F7B80BC00CAF634 /* ModularIsBetterTests */,
+				3DCC36D11F7B80BC00CAF634 /* ModularIsBetterUITests */,
+				3DCC36B01F7B80BC00CAF634 /* Products */,
+				D50F02A6AD559B8D569AB9FC /* Pods */,
+				F902EC7A64590752A11DC419 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCC36B01F7B80BC00CAF634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC36AF1F7B80BC00CAF634 /* ModularIsBetter.app */,
+				3DCC36C31F7B80BC00CAF634 /* ModularIsBetterTests.xctest */,
+				3DCC36CE1F7B80BC00CAF634 /* ModularIsBetterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCC36B11F7B80BC00CAF634 /* ModularIsBetter */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC36B21F7B80BC00CAF634 /* AppDelegate.swift */,
+				3DCC36B41F7B80BC00CAF634 /* ViewController.swift */,
+				3DCC36B61F7B80BC00CAF634 /* Main.storyboard */,
+				3DCC36B91F7B80BC00CAF634 /* Assets.xcassets */,
+				3DCC36BB1F7B80BC00CAF634 /* LaunchScreen.storyboard */,
+				3DCC36BE1F7B80BC00CAF634 /* Info.plist */,
+				3DCC36E31F7CF11100CAF634 /* UILoadingView.swift */,
+			);
+			path = ModularIsBetter;
+			sourceTree = "<group>";
+		};
+		3DCC36C61F7B80BC00CAF634 /* ModularIsBetterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC36C71F7B80BC00CAF634 /* ModularIsBetterTests.swift */,
+				3DCC36C91F7B80BC00CAF634 /* Info.plist */,
+			);
+			path = ModularIsBetterTests;
+			sourceTree = "<group>";
+		};
+		3DCC36D11F7B80BC00CAF634 /* ModularIsBetterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC36D21F7B80BC00CAF634 /* ModularIsBetterUITests.swift */,
+				3DCC36D41F7B80BC00CAF634 /* Info.plist */,
+			);
+			path = ModularIsBetterUITests;
+			sourceTree = "<group>";
+		};
+		D50F02A6AD559B8D569AB9FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A458C4CA264C121C5EE4A6D2 /* Pods-ModularIsBetter.debug.xcconfig */,
+				0CE7A09DD293BCDB93BD6936 /* Pods-ModularIsBetter.release.xcconfig */,
+				01F9234822382B3CBA71F714 /* Pods-ModularIsBetterTests.debug.xcconfig */,
+				D129B7276DB1A41E285A794D /* Pods-ModularIsBetterTests.release.xcconfig */,
+				6E940EC1639E4ED04BDD5412 /* Pods-ModularIsBetterUITests.debug.xcconfig */,
+				6781AE194569211AD444F9B9 /* Pods-ModularIsBetterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F902EC7A64590752A11DC419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4FF35E3908FC01438C4E74E /* Pods_ModularIsBetter.framework */,
+				A73C308F5AFB78B0030FD628 /* Pods_ModularIsBetterTests.framework */,
+				E31644AB030BCEF41E1F0A1C /* Pods_ModularIsBetterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCC36AE1F7B80BC00CAF634 /* ModularIsBetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCC36D71F7B80BC00CAF634 /* Build configuration list for PBXNativeTarget "ModularIsBetter" */;
+			buildPhases = (
+				3D0AD98FDFF228F0BEC9003F /* [CP] Check Pods Manifest.lock */,
+				3DCC36AB1F7B80BC00CAF634 /* Sources */,
+				3DCC36AC1F7B80BC00CAF634 /* Frameworks */,
+				3DCC36AD1F7B80BC00CAF634 /* Resources */,
+				3EA96CE7D67EEE4C7FCE4273 /* [CP] Embed Pods Frameworks */,
+				3D14DD5B43934FB29E25408B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModularIsBetter;
+			productName = ModularIsBetter;
+			productReference = 3DCC36AF1F7B80BC00CAF634 /* ModularIsBetter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DCC36C21F7B80BC00CAF634 /* ModularIsBetterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCC36DA1F7B80BC00CAF634 /* Build configuration list for PBXNativeTarget "ModularIsBetterTests" */;
+			buildPhases = (
+				BEAE9EA7F248676E8C352F88 /* [CP] Check Pods Manifest.lock */,
+				3DCC36BF1F7B80BC00CAF634 /* Sources */,
+				3DCC36C01F7B80BC00CAF634 /* Frameworks */,
+				3DCC36C11F7B80BC00CAF634 /* Resources */,
+				0CB2C821BFB5B0995BBDC547 /* [CP] Embed Pods Frameworks */,
+				11CE480D5A5658E50448EB2C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCC36C51F7B80BC00CAF634 /* PBXTargetDependency */,
+			);
+			name = ModularIsBetterTests;
+			productName = ModularIsBetterTests;
+			productReference = 3DCC36C31F7B80BC00CAF634 /* ModularIsBetterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DCC36CD1F7B80BC00CAF634 /* ModularIsBetterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCC36DD1F7B80BC00CAF634 /* Build configuration list for PBXNativeTarget "ModularIsBetterUITests" */;
+			buildPhases = (
+				D2F9C6A81398FBB47919DE37 /* [CP] Check Pods Manifest.lock */,
+				3DCC36CA1F7B80BC00CAF634 /* Sources */,
+				3DCC36CB1F7B80BC00CAF634 /* Frameworks */,
+				3DCC36CC1F7B80BC00CAF634 /* Resources */,
+				4E34A3E90335ED5360962D44 /* [CP] Embed Pods Frameworks */,
+				7945F5FBBA11A6C90EB7F01B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCC36D01F7B80BC00CAF634 /* PBXTargetDependency */,
+			);
+			name = ModularIsBetterUITests;
+			productName = ModularIsBetterUITests;
+			productReference = 3DCC36CE1F7B80BC00CAF634 /* ModularIsBetterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCC36A71F7B80BC00CAF634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = qiscus;
+				TargetAttributes = {
+					3DCC36AE1F7B80BC00CAF634 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QG8KA4P8TE;
+						ProvisioningStyle = Automatic;
+					};
+					3DCC36C21F7B80BC00CAF634 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QG8KA4P8TE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DCC36AE1F7B80BC00CAF634;
+					};
+					3DCC36CD1F7B80BC00CAF634 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QG8KA4P8TE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DCC36AE1F7B80BC00CAF634;
+					};
+				};
+			};
+			buildConfigurationList = 3DCC36AA1F7B80BC00CAF634 /* Build configuration list for PBXProject "ModularIsBetter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCC36A61F7B80BC00CAF634;
+			productRefGroup = 3DCC36B01F7B80BC00CAF634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCC36AE1F7B80BC00CAF634 /* ModularIsBetter */,
+				3DCC36C21F7B80BC00CAF634 /* ModularIsBetterTests */,
+				3DCC36CD1F7B80BC00CAF634 /* ModularIsBetterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCC36AD1F7B80BC00CAF634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCC36BD1F7B80BC00CAF634 /* LaunchScreen.storyboard in Resources */,
+				3DCC36BA1F7B80BC00CAF634 /* Assets.xcassets in Resources */,
+				3DCC36B81F7B80BC00CAF634 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCC36C11F7B80BC00CAF634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCC36CC1F7B80BC00CAF634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CB2C821BFB5B0995BBDC547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModularIsBetterTests/Pods-ModularIsBetterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11CE480D5A5658E50448EB2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModularIsBetterTests/Pods-ModularIsBetterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D0AD98FDFF228F0BEC9003F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D14DD5B43934FB29E25408B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModularIsBetter/Pods-ModularIsBetter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA96CE7D67EEE4C7FCE4273 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModularIsBetter/Pods-ModularIsBetter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E34A3E90335ED5360962D44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModularIsBetterUITests/Pods-ModularIsBetterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7945F5FBBA11A6C90EB7F01B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModularIsBetterUITests/Pods-ModularIsBetterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEAE9EA7F248676E8C352F88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F9C6A81398FBB47919DE37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCC36AB1F7B80BC00CAF634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCC36B51F7B80BC00CAF634 /* ViewController.swift in Sources */,
+				3DCC36B31F7B80BC00CAF634 /* AppDelegate.swift in Sources */,
+				3DCC36E41F7CF11100CAF634 /* UILoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCC36BF1F7B80BC00CAF634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCC36C81F7B80BC00CAF634 /* ModularIsBetterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCC36CA1F7B80BC00CAF634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCC36D31F7B80BC00CAF634 /* ModularIsBetterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DCC36C51F7B80BC00CAF634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCC36AE1F7B80BC00CAF634 /* ModularIsBetter */;
+			targetProxy = 3DCC36C41F7B80BC00CAF634 /* PBXContainerItemProxy */;
+		};
+		3DCC36D01F7B80BC00CAF634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCC36AE1F7B80BC00CAF634 /* ModularIsBetter */;
+			targetProxy = 3DCC36CF1F7B80BC00CAF634 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DCC36B61F7B80BC00CAF634 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCC36B71F7B80BC00CAF634 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DCC36BB1F7B80BC00CAF634 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCC36BC1F7B80BC00CAF634 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCC36D51F7B80BC00CAF634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DCC36D61F7B80BC00CAF634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCC36D81F7B80BC00CAF634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A458C4CA264C121C5EE4A6D2 /* Pods-ModularIsBetter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = ModularIsBetter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiscus.com.ModularIsBetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DCC36D91F7B80BC00CAF634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE7A09DD293BCDB93BD6936 /* Pods-ModularIsBetter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = ModularIsBetter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiscus.com.ModularIsBetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3DCC36DB1F7B80BC00CAF634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F9234822382B3CBA71F714 /* Pods-ModularIsBetterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = ModularIsBetterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiscus.com.ModularIsBetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModularIsBetter.app/ModularIsBetter";
+			};
+			name = Debug;
+		};
+		3DCC36DC1F7B80BC00CAF634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D129B7276DB1A41E285A794D /* Pods-ModularIsBetterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = ModularIsBetterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiscus.com.ModularIsBetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModularIsBetter.app/ModularIsBetter";
+			};
+			name = Release;
+		};
+		3DCC36DE1F7B80BC00CAF634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E940EC1639E4ED04BDD5412 /* Pods-ModularIsBetterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = ModularIsBetterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiscus.com.ModularIsBetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ModularIsBetter;
+			};
+			name = Debug;
+		};
+		3DCC36DF1F7B80BC00CAF634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6781AE194569211AD444F9B9 /* Pods-ModularIsBetterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = ModularIsBetterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiscus.com.ModularIsBetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ModularIsBetter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCC36AA1F7B80BC00CAF634 /* Build configuration list for PBXProject "ModularIsBetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCC36D51F7B80BC00CAF634 /* Debug */,
+				3DCC36D61F7B80BC00CAF634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCC36D71F7B80BC00CAF634 /* Build configuration list for PBXNativeTarget "ModularIsBetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCC36D81F7B80BC00CAF634 /* Debug */,
+				3DCC36D91F7B80BC00CAF634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCC36DA1F7B80BC00CAF634 /* Build configuration list for PBXNativeTarget "ModularIsBetterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCC36DB1F7B80BC00CAF634 /* Debug */,
+				3DCC36DC1F7B80BC00CAF634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCC36DD1F7B80BC00CAF634 /* Build configuration list for PBXNativeTarget "ModularIsBetterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCC36DE1F7B80BC00CAF634 /* Debug */,
+				3DCC36DF1F7B80BC00CAF634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCC36A71F7B80BC00CAF634 /* Project object */;
+}
